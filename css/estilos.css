@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    margin: 0px;
+    padding: 9px;
+}
+
+#rel {
+	background-color: #666;
+	color: #eee;
+	padding: 6px;
+	font-family: monospace;
+	font-size: 20px
+}
+
+.textview{
+    background-color: #818181;
+    color: white;
+    height: 40px;
+    text-align: right;
+    padding: 10px;
+    border: 0px;
+    width: 233px;
+}
+
+.contenedor {
+    background-color: #ededed;
+    width: fit-content;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.teclas {
+    display: flex;
+}
+
+.pantalla {
+    padding: 18px;
+}
+
+.operaciones input{
+    text-align: center;
+}
+
+.numeros input {    
+    text-align: center;
+}
+
+.numeros input {
+    border: 0px;
+    background-color: #0091ff;
+    margin: 1px;
+    margin-left: 1;
+    width: 54px;
+    height: 54px;
+    color: white;
+    text-align: center;
+}
+
+.numeros button:hover{
+    box-shadow: 0px 0px 12px #ccc;
+}
+
+.operaciones button:hover{
+    box-shadow: 0px 0px 12px #ccc;
+}
+
+.operaciones input {
+    margin: 1.5px;
+    border: 0px;
+    background-color: #00c0ff;
+    display: flex;
+    width: 54px;
+    height: 54px;
+    color: white;
+    width: 54px;
+    height: 54px;
+    text-align: center;
+}
+
+.codigo input{
+    border: 0px;
+    background-color: #f6b55d;
+    color: white;
+    width: 233px;
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="contenedor">
+      <form name="form">
+        <input class="textview" name="textview">
+      
+      <div class="teclas">
+        <div class="numeros">
+          <div>
+            <input class="button" type="button"  value="1" onclick="insert(1)"></input>
+            <input class="button" type="button"  value="2" onclick="insert(2)"></input>
+            <input class="button" type="button"  value="3" onclick="insert(3)"></input>
+          </div>
+          <div>
+            <input class="button" type="button"  value="4" onclick="insert(4)"></input>
+            <input class="button" type="button"  value="5" onclick="insert(5)"></input>
+            <input class="button" type="button"  value="6" onclick="insert(6)"></input>
+          </div>
+          <div>
+            <input class="button" type="button"  value="7" onclick="insert(7)"></input>
+            <input class="button" type="button"  value="8" onclick="insert(8)"></input>
+            <input class="button" type="button"  value="9" onclick="insert(9)"></input>
+          </div>
+          <div>
+            <input class="button" type="button"  value="CE" onclick="limpiar()" ></input>
+            <input class="button" type="button"  value="0" onclick="insert(0)"></input>
+            <input class="button" type="button"  value="=" onclick="igual()"></input>
+          </div>
+        </div>
+        <div class="operaciones">
+          <input class="button" type="button"  value="+" onclick="insert('+')"></input>
+          <input class="button" type="button"  value="-" onclick="insert('-')"></input>
+          <input class="button" type="button"  value="*" onclick="insert('*')"></input>
+          <input class="button" type="button"  value="/" onclick="insert('/')"></input>
+        </div>
+      </form>
+      </div>
+      <div class="codigo">
+        <input class="button" type="button"  value="IMPRIMIR CODIGO" onclick="codigo()"></input>
+      </div>
+    </div>
+    <script src="js/operaciones.js"></script>
+  </body>
+</html>
